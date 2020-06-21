@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IrCommander", "IrCommander\IrCommander.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NonNYG", "NonNYG\NonNYG.vcxproj", "{2E53635D-A8D9-47F9-9A2A-7CD3777BBADF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NYG_Library", "..\NYG_Library\NYG_Library.vcxitems", "{62C10FDB-437D-4FC4-AF28-4BF3DFA5D158}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestEeprom", "TestEeprom\TestEeprom.vcxproj", "{B22072AD-D188-4533-8852-6CADC1B99BE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TESTS", "TESTS", "{50D820EA-FB55-4C97-B459-F312F348464B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDipSwitch", "TestDipSwitch\TestDipSwitch.vcxproj", "{01071976-1228-4AAD-88B8-8A7B2EE65045}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestIRreceiver", "TestIRreceiver\TestIRreceiver.vcxproj", "{1BAEDE2C-766B-4127-A3D3-7B66010CB9DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{2E53635D-A8D9-47F9-9A2A-7CD3777BBADF}.Debug|x86.ActiveCfg = Debug|Win32
+		{2E53635D-A8D9-47F9-9A2A-7CD3777BBADF}.Debug|x86.Build.0 = Debug|Win32
+		{2E53635D-A8D9-47F9-9A2A-7CD3777BBADF}.Release|x86.ActiveCfg = Release|Win32
+		{2E53635D-A8D9-47F9-9A2A-7CD3777BBADF}.Release|x86.Build.0 = Release|Win32
+		{B22072AD-D188-4533-8852-6CADC1B99BE4}.Debug|x86.ActiveCfg = Debug|Win32
+		{B22072AD-D188-4533-8852-6CADC1B99BE4}.Debug|x86.Build.0 = Debug|Win32
+		{B22072AD-D188-4533-8852-6CADC1B99BE4}.Release|x86.ActiveCfg = Release|Win32
+		{B22072AD-D188-4533-8852-6CADC1B99BE4}.Release|x86.Build.0 = Release|Win32
+		{01071976-1228-4AAD-88B8-8A7B2EE65045}.Debug|x86.ActiveCfg = Debug|Win32
+		{01071976-1228-4AAD-88B8-8A7B2EE65045}.Debug|x86.Build.0 = Debug|Win32
+		{01071976-1228-4AAD-88B8-8A7B2EE65045}.Release|x86.ActiveCfg = Release|Win32
+		{01071976-1228-4AAD-88B8-8A7B2EE65045}.Release|x86.Build.0 = Release|Win32
+		{1BAEDE2C-766B-4127-A3D3-7B66010CB9DD}.Debug|x86.ActiveCfg = Debug|Win32
+		{1BAEDE2C-766B-4127-A3D3-7B66010CB9DD}.Debug|x86.Build.0 = Debug|Win32
+		{1BAEDE2C-766B-4127-A3D3-7B66010CB9DD}.Release|x86.ActiveCfg = Release|Win32
+		{1BAEDE2C-766B-4127-A3D3-7B66010CB9DD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B22072AD-D188-4533-8852-6CADC1B99BE4} = {50D820EA-FB55-4C97-B459-F312F348464B}
+		{01071976-1228-4AAD-88B8-8A7B2EE65045} = {50D820EA-FB55-4C97-B459-F312F348464B}
+		{1BAEDE2C-766B-4127-A3D3-7B66010CB9DD} = {50D820EA-FB55-4C97-B459-F312F348464B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C784D22B-91B7-403A-960E-3A3097C74C2C}
+	EndGlobalSection
+EndGlobal
